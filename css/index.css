@@ -20,6 +20,8 @@ body{
     color: white;
     text-align: center;
     align-items: center;
+    position: sticky;
+    top: 0;
 }
 .o-main{
     grid-area: main;
