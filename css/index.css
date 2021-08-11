@@ -1,3 +1,29 @@
+*{
+    font-family: arial;
+}
 body{
     margin: 0px;
+    display: grid;
+    grid-template-areas: 
+    "header header header"
+    "aside main main"
+    "footer footer footer";
+    gap: 1rem;
+    grid-template-columns: 20vw auto auto;
+    grid-template-rows: auto 100vh auto;
+}
+.o-header, .o-main, .o-footer, .o-aside{
+    background-color: purple;
+}
+.o-header{
+    grid-area: header;
+    color: white;
+    text-align: center;
+    align-items: center;
+}
+.o-main{
+    grid-area: main;
+}
+.o-footer{
+    grid-area: footer;
 }
