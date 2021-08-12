@@ -14,7 +14,7 @@
         "footer";
         gap: 2.5px;
         grid-template-columns: auto;
-        grid-template-rows: 10vh auto 100vh auto;
+        grid-template-rows: 70px auto 100vh auto;
     }
     .o-header, .o-main, .o-footer, .o-aside{
         background: hsla(44, 25%, 51%, 1);
@@ -43,7 +43,7 @@
         }
             .o-header > .logo > img{
                 align-self: center;
-                height: 5vh;
+                height: 40px;
                 padding-top:1vh;
                 padding-left: 1vh;
                 padding-bottom: 1vh;
@@ -55,8 +55,8 @@
                 align-self: center;
             }
         .o-header > .options > img{
-            width: 50px;
-            margin-top: 10px;
+            width: 40px;
+            margin-top: 14px;
             margin-right: 10px;
 
         }
