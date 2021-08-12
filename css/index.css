@@ -3,6 +3,9 @@
     color: black;
     /* transition: 2s; */
 }
+a{
+    text-decoration: none;
+}
 @media (max-width: 600px) {
     body{
         margin: 0px;
@@ -29,8 +32,7 @@
     .o-header{
         grid-area: header;
 
-        display: flex;
-        
+        display: flex; 
         position: sticky;
         flex-direction: row;
         justify-content: space-between;
@@ -67,7 +69,15 @@
             .header-select > .main {
                 display: flex;
                 flex-direction: column;
+                justify-content: center;
+                align-items: center;
             }
+                .header-select > .main > a {
+                    margin-top: 5px;
+                }
+                .header-select > .main:last-child{
+                    margin-bottom: 5px;
+                }
    
     .o-main{
         grid-area: main;
