@@ -60,6 +60,7 @@ a{
             width: 40px;
             margin-top: 13px;
             margin-right: 10px;
+            transition: transform 0.1s;
 
         }
         .header-select{
@@ -106,4 +107,11 @@ a{
     }
 
 
+}
+/* Main classes */
+.unrotated {
+    transform: rotate(0deg);
+}
+.rotated{
+    transform: rotate(90deg);
 }
