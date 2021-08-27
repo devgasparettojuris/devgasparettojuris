@@ -20,13 +20,8 @@ a{
         grid-template-rows: 70px auto 100vh auto;
     }
     .o-header, .o-main, .o-footer, .o-aside{
-        background: hsla(44, 25%, 51%, 1);
-
-        background: linear-gradient(90deg, hsla(44, 25%, 51%, 1) 0%, hsla(44, 25%, 51%, 1) 29%, hsla(44, 52%, 67%, 1) 100%);
-
-        background: -webkit-linear-gradient(90deg, hsla(44, 25%, 51%, 1) 0%, hsla(44, 25%, 51%, 1) 29%, hsla(44, 52%, 67%, 1) 100%);
-
-        filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#A19061", endColorstr="#A19061", GradientType=1 );
+        background-color: #C3C3C3;
+        /* filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#A19061", endColorstr="#A19061", GradientType=1 ); */
 
     }
     .o-header{
