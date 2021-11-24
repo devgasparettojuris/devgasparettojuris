@@ -113,3 +113,29 @@ a{
 .rotated{
     transform: rotate(90deg);
 }
+.darkened {
+    filter: brightness(40%);
+    transition: all 0.2s;
+}
+.darkened:hover{
+    filter: brightness(20%);
+}
+/* unvisited link */
+a:link {
+    color: black;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: black;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: black;
+  }
+  
+  /* selected link */
+  a:active {
+    color: goldenrod;
+  }
