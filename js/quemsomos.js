@@ -23,3 +23,7 @@ document.addEventListener('scroll', function (){
         console.log("Não rolou para baixo.");
     }
 });
+
+$('#wpp-btn').on('click', ()=>{
+    window.location.href="https://api.whatsapp.com/send/?phone=5519994071517&text=Ol%C3%A1+gostaria+de+atendimento+jurídico";
+})
