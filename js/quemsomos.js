@@ -1,4 +1,3 @@
-//
 var headerSelect = $('.header-select')[0]
 $('#btnDropDown').on('click', ()=>{
     if(headerSelect.style.display=="block"){
@@ -17,17 +16,6 @@ $('#btnDropDown').on('click', ()=>{
     // grid-template-rows: auto 0vh 100vh auto;
 });
 // Scroll Event..
-<<<<<<< HEAD
-=======
-document.addEventListener('scroll', function (){
-    if(document.body.getBoundingClientRect().top < -20){
-        console.log("Rolou para baixo");
-    }else{
-        console.log("Não rolou para baixo.");
-    }
-});
-
 $('#wpp-btn').on('click', ()=>{
     window.location.href="https://api.whatsapp.com/send/?phone=5519994071517&text=Ol%C3%A1+gostaria+de+atendimento+jurídico";
 })
->>>>>>> 5dccc57c8f4f1466223e40137352d4d0ad093b8f
