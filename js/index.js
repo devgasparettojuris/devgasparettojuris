@@ -1,3 +1,4 @@
+
 var headerSelect = $('.header-select')[0]
 $('#btnDropDown').on('click', ()=>{
     if(headerSelect.style.display=="block"){
@@ -19,11 +20,5 @@ $('#wpp-btn').on('click', ()=>{
     window.location.href="https://api.whatsapp.com/send/?phone=5519994071517&text=Ol%C3%A1+gostaria+de+atendimento+jurídico";
 })
 // Scroll Event..
-document.addEventListener('scroll', function (){
-    if(document.body.getBoundingClientRect().top < -20){
-        console.log("Rolou para baixo");
-    }else{
-        console.log("Não rolou para baixo.");
-    }
-});
+
 

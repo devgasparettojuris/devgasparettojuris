@@ -76,26 +76,33 @@ body{
 
 .o-main{
     grid-area: main;
-    background-color: C3C3C3;
+    background-color: #C3C3C3;
 }
-    .o-main > .perfil-box{
+    .o-main > .card{
+        background-color: #C3C3C3;
+        margin: 20px;
+        box-shadow: 2px 2px 15px 2px #000000;
+    }
+    .o-main > .card > .card-header{
         display: flex;
         flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        background-color: rgb(116, 113, 113);
-        box-shadow: 2px 2px 15px 2px #000000;        
-        margin: 20px;
+        background-color: rgb(163, 162, 162);
     }
-    .o-main > .perfil-box > p{
-        text-align: center;
-        margin: 5px;
-        color: white;
+    .o-main > .card > .card-body{
+        background-color: rgb(143, 142, 142);
     }
-    .o-main > .perfil-box > .rounded-perfil{
-        height: 200px;
-        width: 150px;
-    }
+        .o-main > .card > .card-header > h3 {
+            text-align: center;
+        }
+        .o-main > .card > .card-body > ul{
+            list-style-type: "→ ";
+            list-style-position: inside;
+        }
+            .o-main > .card > .card-body > ul > li{
+                margin-top: 10px;
+                text-shadow: -1px 3px 8px rgba(0,0,0,0.53);
+            }
+    
 .o-footer{
     grid-area: footer;
     display: flex;
