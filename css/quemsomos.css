@@ -94,20 +94,33 @@ body{
     }
     .o-main > .perfil-box > .rounded-perfil{
         height: 200px;
-        width: 150px;
+        width: 300px;
+        margin-top: 10px;
+        border-radius: 5px;
     }
-.o-footer{
-    grid-area: footer;
-    display: flex;
-    justify-content: space-around;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    font-size: 12px;
-}
-.o-footer > .center-side, .o-footer > .right-side{
-    display: none;
-    
-}
+    .o-footer{
+        grid-area: footer;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        padding-top: 5px;
+        font-size: 12px;
+    }
+    .o-footer > .contact > a {
+        font-size: 20px;
+    }
+    .o-footer > .contact {
+        display: flex;
+    }
+    .o-footer > .contact > .fa-instagram{
+        display: flex;
+        padding-right: 10px;
+    }
+    .o-footer > .center-side, .o-footer > .right-side{
+        display: none;
+        
+    }
 #size-blocker{
     display: none;  
 }

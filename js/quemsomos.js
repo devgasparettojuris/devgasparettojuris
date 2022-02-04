@@ -17,5 +17,5 @@ $('#btnDropDown').on('click', ()=>{
 });
 // Scroll Event..
 $('#wpp-btn').on('click', ()=>{
-    window.location.href="https://api.whatsapp.com/send/?phone=5519994071517&text=Ol%C3%A1+gostaria+de+atendimento+jurídico";
+    window.location.href="https://api.whatsapp.com/send/?phone=551933295879&text=Ol%C3%A1+gostaria+de+atendimento+jurídico";
 })

@@ -1,3 +1,8 @@
+.o-footer{
+    display: flex;
+    flex-direction: column;
+}
+
 *{
     font-family: 'STIX Two Text', serif;
     color: black;
@@ -85,10 +90,21 @@ body{
 .o-footer{
     grid-area: footer;
     display: flex;
+    flex-direction: column;
     justify-content: space-around;
+    align-items: center;
     padding-top: 5px;
-    padding-bottom: 5px;
     font-size: 12px;
+}
+.o-footer > .contact > a {
+    font-size: 20px;
+}
+.o-footer > .contact {
+    display: flex;
+}
+.o-footer > .contact > .fa-instagram{
+    display: flex;
+    padding-right: 10px;
 }
 .o-footer > .center-side, .o-footer > .right-side{
     display: none;
