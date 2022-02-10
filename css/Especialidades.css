@@ -186,6 +186,20 @@ color: goldenrod;
     right: 5px; 
     z-index: 9999999999999999;
 }
+#insta-btn > img{
+    position: fixed; 
+    width: 43px; 
+    bottom: 55px; 
+    right: 5px; 
+    z-index: 9999999999999999;
+}
+#maps-btn > img{
+    position: fixed; 
+    width: 43px; 
+    bottom: 105px; 
+    right: 5px; 
+    z-index: 9999999999999999;
+}
 
 @media (min-width: 768px){
     #carousel{

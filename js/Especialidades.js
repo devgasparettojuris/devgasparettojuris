@@ -19,3 +19,9 @@ $('#btnDropDown').on('click', ()=>{
 $('#wpp-btn').on('click', ()=>{
     window.location.href="https://api.whatsapp.com/send/?phone=551933295879&text=Ol%C3%A1+gostaria+de+atendimento+jurídico";
 })
+$('#insta-btn').on('click', ()=>{
+    window.location.href="https://www.instagram.com/karoline_gasparetto/";
+})
+$('#maps-btn').on('click', ()=>{
+    window.location.href="https://www.google.com/maps?ll=-23.095518,-47.223748&z=16&t=m&hl=pt-BR&gl=BR&mapclient=embed&q=R.+das+Orqu%C3%ADdeas,+777+-+Vila+Bergamo+Indaiatuba+-+SP+13345-040";
+})

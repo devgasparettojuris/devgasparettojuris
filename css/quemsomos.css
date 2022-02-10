@@ -181,17 +181,46 @@ color: goldenrod;
     right: 5px; 
     z-index: 9999999999999999;
 }
+#insta-btn > img{
+    position: fixed; 
+    width: 43px; 
+    bottom: 55px; 
+    right: 5px; 
+    z-index: 9999999999999999;
+}
+#maps-btn > img{
+    position: fixed; 
+    width: 43px; 
+    bottom: 105px; 
+    right: 5px; 
+    z-index: 9999999999999999;
+}
+
+.torreBusiness{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.torreBusiness > img {
+    width: 100vw;
+}
 
 @media (min-width: 768px){
     #carousel{
         margin-left: 100px;
         margin-right: 100px;
     }
+    .torreBusiness > img {
+        width: 100vw;
+    }
 }
 @media (min-width: 992px){
     #carousel{
         margin-left: 250px;
         margin-right: 250px;
+    }
+    .torreBusiness > img {
+        width: 500px;
     }
 }
 @media (min-width: 1600px){
